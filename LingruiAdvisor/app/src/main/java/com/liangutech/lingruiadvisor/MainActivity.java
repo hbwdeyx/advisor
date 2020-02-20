@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         uploadMessageAboveL = null;
     }
 
-    
+
     private void openImageChooserActivity() {
         Intent i = new Intent(Intent.ACTION_GET_CONTENT);
         i.addCategory(Intent.CATEGORY_OPENABLE);
